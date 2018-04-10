@@ -1,5 +1,6 @@
 package org.apache.struts.edit.model;
 
+import java.io.Serializable;
 import java.util.Arrays;
 
 
@@ -8,7 +9,7 @@ import java.util.Arrays;
  * @author bruce phillips
  *
  */
-public class Person
+public class Person implements Serializable
 {
     private String firstName;
     private String lastName;
