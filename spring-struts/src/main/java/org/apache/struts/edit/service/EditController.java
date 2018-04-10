@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class EditController implements EditService {
 
     @Override
-    @RequestMapping("/spring-struts/controller/person")
+    @RequestMapping("/controller/person")
     public Person getPerson() {
         Person person = new Person();
         person.setFirstName("John");
