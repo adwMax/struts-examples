@@ -7,6 +7,10 @@
 
 	<constant name="struts.devMode" value="true" />
 
+	<constant name="struts.action.extension" value="action" />
+
+    <constant name="struts.action.excludePattern" value="/spring-struts/controller/*"/>
+
 	<package name="basicstruts2" extends="struts-default">
 
         <!-- If no class attribute is specified the framework will assume success and 
